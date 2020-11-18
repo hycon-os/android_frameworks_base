@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (C) 2020 HyconOS
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */    
+-->
+<resources>
+    <dimen name="seekbar_track_background_height_hycon">2.5dp</dimen>
+
+    <!-- QS status bar in QS panel -->
+    <dimen name="qs_status_bar_height">75dp</dimen>
+    <!-- Total height of HyconOS Quick QS (qs_status_bar_height + 91) -->
+    <dimen name="custom_quick_qs_total_height">166dp</dimen>
+    <!-- Top padding for devices with a very wide cutout which may clip out a part of the QS status bar -->
+    <dimen name="qs_status_bar_top_padding">0px</dimen>
+</resources>
